@@ -2,15 +2,21 @@
 
 exports[`Component renders 1`] = `
 <div
-  className="uni-app--counter"
+  className="byop-app--counter"
 >
   <h2>
-    You clicked 
-    0
+    You clicked
+
+    <span
+      data-testid="byop-app--counter-count-value"
+    >
+      0
+    </span>
      times
   </h2>
   <button
     className="MuiButtonBase-root MuiButton-root MuiButton-contained"
+    data-testid="byop-app--counter-button"
     disabled={false}
     onBlur={[Function]}
     onClick={[Function]}
@@ -37,15 +43,21 @@ exports[`Component renders 1`] = `
 
 exports[`Component renders with an initial count 1`] = `
 <div
-  className="uni-app--counter"
+  className="byop-app--counter"
 >
   <h2>
-    You clicked 
-    2
+    You clicked
+
+    <span
+      data-testid="byop-app--counter-count-value"
+    >
+      2
+    </span>
      times
   </h2>
   <button
     className="MuiButtonBase-root MuiButton-root MuiButton-contained"
+    data-testid="byop-app--counter-button"
     disabled={false}
     onBlur={[Function]}
     onClick={[Function]}

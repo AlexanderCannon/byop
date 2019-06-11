@@ -2,11 +2,11 @@ import Box from "@material-ui/core/Box";
 import Button from "@material-ui/core/Button";
 import * as React from "React";
 import { Helmet } from "react-helmet-async";
-import Counter from "../Counter/Counter";
+import Counter from "../Counter";
 import "./style.css";
 
 const Landing: React.FunctionComponent = () => (
-  <div className="uni-app--landing">
+  <div className="byop-app--landing">
     <Helmet>
       <title>Welcome to Unicorn</title>
     </Helmet>

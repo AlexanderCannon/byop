@@ -1,10 +1,10 @@
-.uni-app--counter h2 {
+.byop-app--counter h2 {
   padding: 5%;
   color: var(--color-white);
   text-shadow: var(--text-shadow);
   text-align: center;
 }
-.uni-app--counter {
+.byop-app--counter {
   align-content: center;
   justify-content: center;
   display: flex;

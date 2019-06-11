@@ -10,7 +10,7 @@
   z-index: 0;
 }
 
-.uni-app--landing {
+.byop-app--landing {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,11 +20,11 @@
   min-width: 100%;
   min-height: 70%;
 }
-.uni-app--landing>* {
+.byop-app--landing>* {
   flex-grow: 1;
   z-index: 150;
 }
-.uni-app--landing>h1 {
+.byop-app--landing>h1 {
   padding: 5%;
   color: var(--color-white);
   text-shadow: var(--text-shadow);

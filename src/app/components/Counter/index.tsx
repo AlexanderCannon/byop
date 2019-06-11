@@ -30,9 +30,15 @@ export default class Counter extends React.Component<IProps, IState> {
     const { count } = this.state;
     document.title = `You clicked ${count} times`;
     return (
-      <div className="uni-app--counter">
-        <h2>You clicked {count} times</h2>
-        <Button variant="contained" onClick={this[increment]}>
+      <div className="byop-app--counter">
+        <h2>
+          You clicked{" "}
+          <span data-testid="byop-app--counter-count-value">{count}</span> times
+        </h2>
+        <Button
+          data-testid="byop-app--counter-button"
+          variant="contained"
+          onClick={this[increment]}>
           Click me
         </Button>
       </div>
