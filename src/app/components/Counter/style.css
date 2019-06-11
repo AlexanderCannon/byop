@@ -1,0 +1,13 @@
+.uni-app--counter h2 {
+  padding: 5%;
+  color: var(--color-white);
+  text-shadow: var(--text-shadow);
+  text-align: center;
+}
+.uni-app--counter {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}

@@ -1,0 +1,18 @@
+:root {
+  --animation-fast: 200ms;
+  --animation-slow: 400ms;
+  --color-blue: #3477db;
+  --color-purple: #9448bc;
+  --color-red: #d64541;
+  --color-green: #008000;
+  --color-black: #000000;
+  --color-grey: #f0f0f0;
+  --color-grey-dark: #4d4d4d;
+  --color-white: #ffffff;
+  --font-size-title: 5em;
+  --font-size-subtitle: 3em;
+  --font-size-body: 2rem;
+  --shadow-low: 2px 1px 2px 0px rgba(119, 116, 116, 0.3);
+  --shadow-high: 3px 4px 6px 0px rgba(119, 116, 116, 0.3);
+  --text-shadow: 2px 2px var(--color-black);
+}
