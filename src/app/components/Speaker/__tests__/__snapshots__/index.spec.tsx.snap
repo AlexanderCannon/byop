@@ -51,7 +51,7 @@ exports[`Component renders 1`] = `
         <h6
           className="MuiTypography-root MuiTypography-subtitle1"
         >
-          @ALEXMCAN
+          @alexmcan
         </h6>
       </div>
       <span

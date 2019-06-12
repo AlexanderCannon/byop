@@ -35,10 +35,7 @@ const Speaker = () => {
             <Typography variant="body2" color="textSecondary" component="p">
               Follow him on twitter at:
             </Typography>
-            <Typography
-              variant="subtitle1" >
-              @ALEXMCAN
-            </Typography>
+            <Typography variant="subtitle1">@alexmcan</Typography>
           </CardContent>
         </CardActionArea>
         <CardActions>

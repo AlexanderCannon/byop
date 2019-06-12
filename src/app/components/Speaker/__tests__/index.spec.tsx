@@ -9,7 +9,7 @@ import Speaker from "../index";
  */
 
 const componentText =
-  "Alexander CannonFounder & CEO of Farpoint Labs. Lover of JavaScript, React, and this lovely audience.Follow him on twitter at:@ALEXMCANTwitterGithub";
+  "Alexander CannonFounder & CEO of Farpoint Labs. Lover of JavaScript, React, and this lovely audience.Follow him on twitter at:@alexmcanTwitterGithub";
 
 test("Component renders", () => {
   const speaker = reactTestRenderer.create(<Speaker />);
