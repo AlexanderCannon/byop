@@ -10,6 +10,8 @@ import "./style.css";
 
 // tslint:disable-next-line: no-var-requires
 const old = require("./assets/old.jpg");
+// tslint:disable-next-line: no-var-requires
+const young = require("./assets/young.jpg");
 
 const Speaker = () => {
   return (
@@ -21,8 +23,16 @@ const Speaker = () => {
             alt="our wonderful speaker"
             className="byop-app--speaker-image"
             height="250"
+            image={young}
+            title="Your wonderful speaker"
+          />
+          <CardMedia
+            component="img"
+            alt="our wonderful speaker"
+            className="byop-app--speaker-image-hidden"
+            height="250"
             image={old}
-            title="Your wonderful"
+            title="Your wonderful speaker"
           />
           <CardContent>
             <Typography gutterBottom={true} variant="h5" component="h2">

@@ -28,7 +28,14 @@ exports[`Component renders 1`] = `
         className="MuiCardMedia-root byop-app--speaker-image MuiCardMedia-media"
         height="250"
         src="i aM mOcKiNg yOu"
-        title="Your wonderful"
+        title="Your wonderful speaker"
+      />
+      <img
+        alt="our wonderful speaker"
+        className="MuiCardMedia-root byop-app--speaker-image-hidden MuiCardMedia-media"
+        height="250"
+        src="i aM mOcKiNg yOu"
+        title="Your wonderful speaker"
       />
       <div
         className="MuiCardContent-root"

@@ -1,8 +1,18 @@
 .byop-app--speaker-image {
   display: flex;
   flex-direction: row;
+  transition: opacity 1s ease-in-out;
+  z-index: 300;
+}
+.byop-app--speaker-image-hidden {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  z-index: 250;
+  top: 0;
+  transition: opacity 1s ease-in-out;
 }
 
-.byop-app--speaker:hover .byop-app--speaker-image {
-  content: url("./assets/young.jpg");
+.byop-app--speaker:hover .byop-app--speaker-image-hidden {
+  opacity:0;
 }
