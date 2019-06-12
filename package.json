@@ -4,7 +4,7 @@
   "description": "front-end for unicorn app",
   "main": "dist/index.js",
   "scripts": {
-    "test": "jest --passWithNoTests",
+    "test": "jest",
     "lint": "tslint --project tsconfig.json --fix",
     "ts:compile": "tsc --noEmit",
     "ts:build": "tsc",
