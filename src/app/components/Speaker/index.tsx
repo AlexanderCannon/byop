@@ -20,7 +20,7 @@ const Speaker = () => {
             component="img"
             alt="our wonderful speaker"
             className="byop-app--speaker-image"
-            height="200"
+            height="250"
             image={old}
             title="Your wonderful"
           />
