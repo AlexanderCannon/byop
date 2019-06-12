@@ -15,7 +15,7 @@ module.exports = {
     "\\.css$": "<rootDir>/src/__mocks__/styleMock.ts",
   },
   snapshotSerializers: ["enzyme-to-json/serializer"],
-  setupFilesAfterEnv: ["<rootDir>/src/__test__/setupEnzyme.ts"],
+  setupFilesAfterEnv: ["<rootDir>/src/__setup__/setupEnzyme.ts"],
   moduleFileExtensions: ["ts", "tsx", "js", "json"],
   collectCoverageFrom: [
     "**/*.ts",
