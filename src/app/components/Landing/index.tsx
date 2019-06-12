@@ -1,26 +1,25 @@
 import Box from "@material-ui/core/Box";
-import Button from "@material-ui/core/Button";
+import Typography from "@material-ui/core/Typography";
 import * as React from "React";
 import { Helmet } from "react-helmet-async";
 import Counter from "../Counter";
+import Speaker from "../Speaker";
 import "./style.css";
 
 const Landing: React.FunctionComponent = () => (
-  <div className="byop-app--landing">
+  <Box className="byop-app--landing">
     <Helmet>
-      <title>Welcome to Unicorn</title>
+      <title>React London</title>
     </Helmet>
-    {/* <img
+    <img
       className="uni-cmp--splash"
-      src="https://images.unsplash.com/photo-1559769228-fa811c9a60f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
+      src="https://images.unsplash.com/photo-1541185934-01b600ea069c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2551&q=80"
       height="100%"
       alt="bg-image"
-    /> */}
-    {/* <h1>Get ready for the next big thing</h1> */}
-    <Box>
-      <Counter />
-    </Box>
-  </div>
+    />
+    <Speaker />
+    <Counter />
+  </Box>
 );
 
 export default Landing;
