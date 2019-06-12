@@ -8,7 +8,7 @@ interface IProps {
   initialCount?: number;
 }
 
-const style: CSSProperties = { "background-color": "blue" };
+const style: CSSProperties = { backgroundColor: "blue" };
 
 const Counter = ({ initialCount = 0 }: IProps) => {
   const [count, setCount] = React.useState(initialCount);
@@ -20,12 +20,13 @@ const Counter = ({ initialCount = 0 }: IProps) => {
 
   return (
     <div className="byop-app--counter" style={style}>
-      <Typography variant="h2">
-        You clicked
+      <Typography variant="h3">
+        You clicked{" "}
         <span data-testid="byop-app--counter-count-value">{count}</span> times
       </Typography>
 
       <Button
+        className="byop--app-counter-button"
         data-testid="byop-app--counter-button"
         variant="contained"
         color="primary"

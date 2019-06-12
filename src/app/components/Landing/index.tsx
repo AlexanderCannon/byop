@@ -1,5 +1,4 @@
 import Box from "@material-ui/core/Box";
-import Typography from "@material-ui/core/Typography";
 import * as React from "React";
 import { Helmet } from "react-helmet-async";
 import Counter from "../Counter";
