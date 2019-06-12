@@ -9,9 +9,6 @@ import * as React from "react";
 import Logo from "../Logo";
 import "./style.css";
 
-// tslint:disable-next-line: no-var-requires
-const old = require("./assets/old.jpg");
-
 const FarpointLabs = () => {
   return (
     <div className="byop-app--farpoint-labs">
