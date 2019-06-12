@@ -1,5 +1,5 @@
 import Box from "@material-ui/core/Box";
-import * as React from "React";
+import * as React from "react";
 import { Helmet } from "react-helmet-async";
 import Counter from "../Counter";
 import Speaker from "../Speaker";
