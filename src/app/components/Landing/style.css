@@ -1,4 +1,4 @@
-.uni-cmp--splash {
+.byop-cmp--splash {
   object-fit: cover;
   min-width: 100%;
   min-height: 100%;
@@ -12,21 +12,37 @@
 
 .byop-app--landing {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   top: 5%;
-  position: absolute;
-  width: 100%;
+  position: relative;
+  max-width: 100%;
   height: 100%;
 }
 .byop-app--landing>* {
-  z-index: 150;
-  max-width: 500px;
+  flex-grow: 1;
 }
 .byop-app--landing>h1 {
   padding: 5%;
   color: var(--color-white);
   text-shadow: var(--text-shadow);
   text-align: center;
+}
+
+.byop-app--landing-cards {
+  z-index: 150;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  left:0;
+  width: 100vw;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.byop-app--landing-cards>*{
+  top: 50px;
+  width: 500px;
+  /* height: 500px; */
+  margin: 50px;
 }

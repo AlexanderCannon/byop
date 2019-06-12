@@ -1,7 +1,9 @@
 import * as React from "react";
 import { Route, Switch } from "react-router";
 import Counter from "./Counter";
+import FarpointLabs from "./FarpointLabs";
 import Landing from "./Landing";
+import Logo from "./Logo";
 import { NotFound } from "./NotFound";
 import Speaker from "./Speaker";
 
@@ -24,6 +26,8 @@ const renderDevComponents = () => (
   <>
     <Route path="/cmp-counter" component={Counter} />
     <Route path="/cmp-speaker" component={Speaker} />
+    <Route path="/cmp-logo" component={Logo} />
+    <Route path="/cmp-farpoint-labs" component={FarpointLabs} />
     {productionRoutes()}
   </>
 );
