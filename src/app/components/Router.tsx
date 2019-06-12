@@ -7,14 +7,16 @@ import Speaker from "./Speaker";
 
 export const Router: React.FunctionComponent = () => (
   <Switch>
-    {process.env.NODE_ENV === "development" ? renderDevComponents() : productionRoutes()}
+    {process.env.NODE_ENV === "development"
+      ? renderDevComponents()
+      : productionRoutes()}
+    <Route component={NotFound} />
   </Switch>
 );
 
 const productionRoutes = () => (
   <>
     <Route exact={true} path="/" component={Landing} />
-    <Route component={NotFound} />
   </>
 );
 

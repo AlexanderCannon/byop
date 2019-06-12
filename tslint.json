@@ -11,6 +11,7 @@
     "variable-name": false,
     "jsx-wrap-multiline": false,
     "object-literal-sort-keys": false,
-    "jsx-alignment": false
+    "jsx-alignment": false,
+    "jsx-no-multiline-js": false
   }
 }
