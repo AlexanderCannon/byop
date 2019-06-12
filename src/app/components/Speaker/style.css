@@ -1,0 +1,8 @@
+.byop-app--speaker-image {
+  display: flex;
+  flex-direction: row;
+}
+
+.byop-app--speaker:hover .byop-app--speaker-image {
+  content: url("./assets/young.jpg");
+}

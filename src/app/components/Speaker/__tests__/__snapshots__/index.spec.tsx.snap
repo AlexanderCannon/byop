@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component renders 1`] = `
+<div
+  className="byop-app--speaker"
+>
+  <div
+    className="MuiPaper-root MuiPaper-elevation1 MuiCard-root MuiPaper-rounded"
+    color="text.primary"
+  >
+    <button
+      className="MuiButtonBase-root MuiCardActionArea-root"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <img
+        alt="our wonderful speaker"
+        className="MuiCardMedia-root byop-app--speaker-image MuiCardMedia-media"
+        height="200"
+        src="i aM mOcKiNg yOu"
+        title="Your wonderful"
+      />
+      <div
+        className="MuiCardContent-root"
+      >
+        <h2
+          className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+        >
+          Alexander Cannon
+        </h2>
+        <p
+          className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+        >
+          Founder & CEO of Farpoint Labs. Lover of JavaScript, React, and this lovely audience.
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+        >
+          Follow him on twitter at:
+        </p>
+        <h6
+          className="MuiTypography-root MuiTypography-subtitle1"
+        >
+          @ALEXMCAN
+        </h6>
+      </div>
+      <span
+        className="MuiCardActionArea-focusHighlight"
+      />
+    </button>
+    <div
+      className="MuiCardActions-root MuiCardActions-spacing"
+    >
+      <a
+        aria-disabled={false}
+        className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall"
+        href="https://twitter.com/alexmcan"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        rel="noopener noreferrer"
+        role="button"
+        tabIndex={0}
+        target="blank"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          Twitter
+        </span>
+      </a>
+      <a
+        aria-disabled={false}
+        className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall"
+        href="https://wwww.github.com/alexandercannon/byop"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        rel="noopener noreferrer"
+        role="button"
+        tabIndex={0}
+        target="blank"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          Github
+        </span>
+      </a>
+    </div>
+  </div>
+</div>
+`;
