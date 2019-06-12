@@ -7,6 +7,6 @@ export const NotFound: React.FunctionComponent = () => (
     <Helmet>
       <title>Not Found</title>
     </Helmet>
-    <div>Can't find it brah 😎</div>
+    <div>Oh no! 404! 😱</div>
   </Status>
 );
