@@ -4,18 +4,20 @@ exports[`Component renders 1`] = `
 <div
   className="byop-app--counter"
 >
-  <h2>
+  <h3
+    className="MuiTypography-root MuiTypography-h3"
+  >
     You clicked
-
+     
     <span
       data-testid="byop-app--counter-count-value"
     >
       0
     </span>
      times
-  </h2>
+  </h3>
   <button
-    className="MuiButtonBase-root MuiButton-root MuiButton-contained"
+    className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
     data-testid="byop-app--counter-button"
     disabled={false}
     onBlur={[Function]}
@@ -45,18 +47,20 @@ exports[`Component renders with an initial count 1`] = `
 <div
   className="byop-app--counter"
 >
-  <h2>
+  <h3
+    className="MuiTypography-root MuiTypography-h3"
+  >
     You clicked
-
+     
     <span
       data-testid="byop-app--counter-count-value"
     >
       2
     </span>
      times
-  </h2>
+  </h3>
   <button
-    className="MuiButtonBase-root MuiButton-root MuiButton-contained"
+    className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
     data-testid="byop-app--counter-button"
     disabled={false}
     onBlur={[Function]}
