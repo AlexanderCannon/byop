@@ -1,6 +1,6 @@
 # unicorn-app
 
-App for unicorn card
+Sample App for BYOP!
 
 ## Running
 
