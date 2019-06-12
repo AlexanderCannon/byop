@@ -1,7 +1,7 @@
 {
-  "name": "unicorn-app",
+  "name": "byop-app",
   "version": "0.0.1",
-  "description": "front-end for unicorn app",
+  "description": "front-end for byop app",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexanderCannon/unicorn-app.git"
+    "url": "git+https://github.com/AlexanderCannon/byop.git"
   },
   "author": "",
   "license": "GPL",
   "bugs": {
-    "url": "https://github.com/AlexanderCannon/unicorn-app/issues"
+    "url": "https://github.com/AlexanderCannon/byop/issues"
   },
-  "homepage": "https://github.com/AlexanderCannon/unicorn-app#readme",
+  "homepage": "https://github.com/AlexanderCannon/byop#readme",
   "devDependencies": {
     "@testing-library/react": "^8.0.1",
     "@types/cheerio": "^0.22.11",

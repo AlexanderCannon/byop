@@ -1,10 +1,10 @@
-# unicorn-app
+# React London
 
 Sample App for BYOP!
 
 ## Running
 
-`docker run -it -p 8882:8882 --init unicorn`
+`docker run -it -p 8882:8882 --init byop`
 
 ## TODO
 

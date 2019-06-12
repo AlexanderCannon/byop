@@ -20,7 +20,7 @@ RUN yarn && \
 # Build
 FROM node:lts-alpine as builder
 
-RUN mkdir /unicorn
+RUN mkdir /byop
 
 WORKDIR /unicord
 
@@ -32,7 +32,7 @@ RUN PARCEL_WORKERS=1 yarn build
 # prod build
 FROM node:lts-alpine
 
-RUN mkdir /unicorn
+RUN mkdir /byop
 
 WORKDIR /unicord
 
