@@ -37,7 +37,7 @@ Testing doesn't just encompass the traditional notion of unit tests, there are l
 
 I can't overstate the value of types for finding and preventing bugs.
 
-I am a huge fan of [TypeScript](https://www.typescriptlang.org/). It's easy to upgrade to from JavaScript, no need for a big bang and it only slows you down when you are solving new problems. Once you're up and running it allows you to go faster, by giving you confidence in your code.
+I am a huge fan of [TypeScript](https://www.typescriptlang.org/). It's easy to upgrade to from JavaScript, no need for a big bang. There is an argument that it is slower to write, but it only slows you down when you are solving new problems. Once you're up and running it allows you to go faster, by giving you confidence in your code.
 
 Whatever your argument against TypeScript is, I will counter with: You're already _transpile_ your code, losing some control over the source so you can `()=>` and so you can `import CoolKids from 'babel'`. Why not use this step to catch bugs, and target specific runtimes!
 
