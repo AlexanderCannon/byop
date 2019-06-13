@@ -45,14 +45,14 @@ test("Component increments count when button is clicked", () => {
  */
 test("App loads with initial state of 0", () => {
   const { container } = render(<Counter />);
-  const countValue = getByTestId(container, "byop-app--counter-count-value");
+  const countValue = getByTestId(container, "byop-app__counter-count-value");
   expect(countValue.textContent).toBe("0");
 });
 
 test("That the button works", () => {
   const { container } = render(<Counter />);
-  const countValue = getByTestId(container, "byop-app--counter-count-value");
-  const increment = getByTestId(container, "byop-app--counter-button");
+  const countValue = getByTestId(container, "byop-app__counter-count-value");
+  const increment = getByTestId(container, "byop-app__counter-button");
   expect(countValue.textContent).toBe("0");
   fireEvent.click(increment);
   expect(countValue.textContent).toBe("1");

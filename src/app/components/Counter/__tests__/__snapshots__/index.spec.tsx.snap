@@ -2,7 +2,7 @@
 
 exports[`Component renders 1`] = `
 <div
-  className="byop-app--counter"
+  className="byop-app__counter"
 >
   <h3
     className="MuiTypography-root MuiTypography-h3"
@@ -10,7 +10,7 @@ exports[`Component renders 1`] = `
     You clicked
      
     <span
-      data-testid="byop-app--counter-count-value"
+      data-testid="byop-app__counter-count-value"
     >
       0
     </span>
@@ -18,7 +18,7 @@ exports[`Component renders 1`] = `
   </h3>
   <button
     className="MuiButtonBase-root MuiButton-root byop--app-counter-button MuiButton-contained MuiButton-containedPrimary"
-    data-testid="byop-app--counter-button"
+    data-testid="byop-app__counter-button"
     disabled={false}
     onBlur={[Function]}
     onClick={[Function]}
@@ -45,7 +45,7 @@ exports[`Component renders 1`] = `
 
 exports[`Component renders with an initial count 1`] = `
 <div
-  className="byop-app--counter"
+  className="byop-app__counter"
 >
   <h3
     className="MuiTypography-root MuiTypography-h3"
@@ -53,7 +53,7 @@ exports[`Component renders with an initial count 1`] = `
     You clicked
      
     <span
-      data-testid="byop-app--counter-count-value"
+      data-testid="byop-app__counter-count-value"
     >
       2
     </span>
@@ -61,7 +61,7 @@ exports[`Component renders with an initial count 1`] = `
   </h3>
   <button
     className="MuiButtonBase-root MuiButton-root byop--app-counter-button MuiButton-contained MuiButton-containedPrimary"
-    data-testid="byop-app--counter-button"
+    data-testid="byop-app__counter-button"
     disabled={false}
     onBlur={[Function]}
     onClick={[Function]}

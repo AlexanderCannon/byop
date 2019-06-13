@@ -31,14 +31,14 @@ export default class Counter extends React.Component<IProps, IState> {
     const { count } = this.state;
     document.title = `You clicked ${count} times`;
     return (
-      <div className="byop-app--counter">
+      <div className="byop-app__counter">
         <Typography variant="h3">
           You clicked{" "}
-          <span data-testid="byop-app--counter-count-value">{count}</span> times
+          <span data-testid="byop-app__counter-count-value">{count}</span> times
         </Typography>
         <Button
           className="byop--app-counter-button"
-          data-testid="byop-app--counter-button"
+          data-testid="byop-app__counter-button"
           variant="contained"
           color="primary"
           onClick={this[increment]}>

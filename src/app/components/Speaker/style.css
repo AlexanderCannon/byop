@@ -1,11 +1,11 @@
-.byop-app--speaker-image {
+.byop-app__speaker-image {
   display: flex;
   flex-direction: row;
   transition: opacity 1s ease-in-out;
   z-index: 300;
 }
 
-.byop-app--speaker-image-hidden {
+.byop-app__speaker-image-hidden {
   display: flex;
   flex-direction: row;
   position: absolute;
@@ -14,6 +14,6 @@
   transition: opacity 200ms ease-in-out;
 }
 
-.byop-app--speaker:hover .byop-app--speaker-image-hidden {
+.byop-app__speaker:hover .byop-app__speaker-image-hidden {
   opacity: 0;
 }

@@ -11,12 +11,12 @@ import "./style.css";
 
 const FarpointLabs = () => {
   return (
-    <div className="byop-app--farpoint-labs">
+    <div className="byop-app__farpoint-labs">
       <Card color="text.primary">
         <CardActionArea>
           <Logo
             primaryColor="var(--color-black)"
-            className="byop-app--farpoint-logo"
+            className="byop-app__farpoint-logo"
           />
           <CardContent>
             <Typography gutterBottom={true} variant="h5" component="h2">

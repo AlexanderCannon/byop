@@ -2,7 +2,7 @@
 
 exports[`Component renders 1`] = `
 <div
-  className="byop-app--speaker"
+  className="byop-app__speaker"
 >
   <div
     className="MuiPaper-root MuiPaper-elevation1 MuiCard-root MuiPaper-rounded"
@@ -25,14 +25,14 @@ exports[`Component renders 1`] = `
     >
       <img
         alt="our wonderful speaker"
-        className="MuiCardMedia-root byop-app--speaker-image MuiCardMedia-media"
+        className="MuiCardMedia-root byop-app__speaker-image MuiCardMedia-media"
         height="250"
         src="i aM mOcKiNg yOu"
         title="Your wonderful speaker"
       />
       <img
         alt="our wonderful speaker"
-        className="MuiCardMedia-root byop-app--speaker-image-hidden MuiCardMedia-media"
+        className="MuiCardMedia-root byop-app__speaker-image-hidden MuiCardMedia-media"
         height="250"
         src="i aM mOcKiNg yOu"
         title="Your wonderful speaker"

@@ -15,13 +15,13 @@ const young = require("./assets/young.jpg");
 
 const Speaker = () => {
   return (
-    <div className="byop-app--speaker">
+    <div className="byop-app__speaker">
       <Card color="text.primary">
         <CardActionArea>
           <CardMedia
             component="img"
             alt="our wonderful speaker"
-            className="byop-app--speaker-image"
+            className="byop-app__speaker-image"
             height="250"
             image={young}
             title="Your wonderful speaker"
@@ -29,7 +29,7 @@ const Speaker = () => {
           <CardMedia
             component="img"
             alt="our wonderful speaker"
-            className="byop-app--speaker-image-hidden"
+            className="byop-app__speaker-image-hidden"
             height="250"
             image={old}
             title="Your wonderful speaker"

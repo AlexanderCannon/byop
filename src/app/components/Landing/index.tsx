@@ -20,8 +20,8 @@ const Landing: React.FunctionComponent = () => (
       height="100%"
       alt="bg-image"
     />
-    <Box className="byop-app--landing">
-      <div className="byop-app--landing-cards">
+    <Box className="byop-app__landing">
+      <div className="byop-app__landing-cards">
         <FarpointLabs />
         <Speaker />
         <Counter />

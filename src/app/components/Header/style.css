@@ -1,4 +1,4 @@
-.byop-app--header {
+.byop-app__header {
   background-color: var(--color-grey-mid);
   height: 50px;
   z-index: 200;
@@ -9,7 +9,7 @@
   display: flex;
 }
 
-.byop-app--header-logo {
+.byop-app__header-logo {
   height: 50px;
   max-width: 300px;
   padding-left: 20px;
@@ -25,7 +25,7 @@
   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-.byop-app--header-x {
+.byop-app__header-x {
   padding-top: 6px;
   font-size: 30px;
   font-weight: bold;

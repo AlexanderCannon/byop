@@ -2,7 +2,7 @@
 
 exports[`Component renders 1`] = `
 <div
-  className="byop-app--farpoint-labs"
+  className="byop-app__farpoint-labs"
 >
   <div
     className="MuiPaper-root MuiPaper-elevation1 MuiCard-root MuiPaper-rounded"
@@ -24,7 +24,7 @@ exports[`Component renders 1`] = `
       type="button"
     >
       <svg
-        className="byop-app--farpoint-logo"
+        className="byop-app__farpoint-logo"
         fill="none"
         height="400"
         viewBox="0 0 3120 400"

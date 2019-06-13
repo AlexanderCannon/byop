@@ -10,7 +10,7 @@
   z-index: 0;
 }
 
-.byop-app--landing {
+.byop-app__landing {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,18 +20,18 @@
   height: 100%;
 }
 
-.byop-app--landing > * {
+.byop-app__landing > * {
   flex-grow: 1;
 }
 
-.byop-app--landing > h1 {
+.byop-app__landing > h1 {
   padding: 5%;
   color: var(--color-white);
   text-shadow: var(--text-shadow);
   text-align: center;
 }
 
-.byop-app--landing-cards {
+.byop-app__landing-cards {
   z-index: 150;
   display: flex;
   flex-direction: row;
@@ -43,7 +43,7 @@
   align-items: center;
 }
 
-.byop-app--landing-cards > * {
+.byop-app__landing-cards > * {
   top: 50px;
   width: 500px;
 
