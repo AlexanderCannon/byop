@@ -1,7 +1,7 @@
 # ⚛︎ React London
 
 
-Welcome to my App, I hope you enjoyed my talk, and that you're hear to play with all the cool technology I demoed.
+Welcome to my App, I hope you enjoyed my talk, and that you're here to play with all the cool technology I demoed.
 
 
 ## 🏃‍♀️ Running
