@@ -91,7 +91,7 @@ Your production build should be using a docker image, that you can also run loca
 
 ### 🔧 Traditional Testing
 
-Before I say anything about how I test things, if you only take away one thing from this document it's that **Developers Should Write Tests™️**. I strongly believe that the best person to test something is the person who designed and built it.
+Before I say anything about how I test things, I want to say that if you only take away one thing from this document it's that **Developers Should Write Tests™️**. I strongly believe that the best person to test something is the person who designed and built it.
 
 Does that mean there is no room for testers? Absolutely not, but your testers should also be engineers. I strongly believe that you should have people who specialise in breaking apps, in the same way you should have InfoSec engineers, and DevOps engineers.
 
