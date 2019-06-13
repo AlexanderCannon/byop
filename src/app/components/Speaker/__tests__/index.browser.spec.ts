@@ -22,7 +22,10 @@ test("changes image on hover", async () => {
   await page.hover(".byop-app__speaker");
   await setTimeout(() => setTimeout(() => true, 400));
   const image = await page.screenshot();
-  expect(image).toMatchImageSnapshot();
+  expect(image).toMatchImageSnapshot({
+    failureThreshold: 0.01,
+    failureThresholdType: "percent"
+  });
 });
 
 afterAll(async () => {

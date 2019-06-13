@@ -12,7 +12,10 @@ test("renders correctly", async () => {
   const page = await browser.newPage();
   await page.goto("http://localhost:1234/cmp-counter");
   const image = await page.screenshot();
-  expect(image).toMatchImageSnapshot();
+  expect(image).toMatchImageSnapshot({
+    failureThreshold: 0.01,
+    failureThresholdType: "percent"
+  });
 });
 test("renders an incremented counter after click", async () => {
   const page = await browser.newPage();
