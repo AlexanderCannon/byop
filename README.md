@@ -135,7 +135,10 @@ You might also spot that all of my tests live in folders called `__tests__`, thi
 
 This is where the magic happens. In recent years there has been a shift towards testing applications as they actually work. For my money the best in the business in the React world is still [enzyme](https://airbnb.io/enzyme/).
 
-There is a number of new challengers in that space, I have had good expeirence with both [cypress](https://www.cypress.io/) and [react-testing-library](https://testing-library.com/docs/react-testing-library/intro), but in production I find myself gravitating to Enzyme.
+There is a number of new challengers in that space, I have had good expeirence with both [cypress](https://www.cypress.io/) and [react-testing-library](https://testing-library.com/docs/react-testing-library/intro), but in production I find myself gravitating to Enzyme, as it is the cadillac of React integration testing tools.
+
+Enzyme requires a bit of setup you can see how I did it in my [Jest config](/jest.config.js) and my [Setup script](/src/__setup__/setupEnzyme.ts). No rocket science, just a helping hand for mocking.
+
 I have some examples of testing with both react-testing-library and enzyme in my tests, like [this](/src/app/components/Counter/__tests__/index.spec.tsx) and [that](/src/app/components/Speaker/__tests__/index.spec.tsx).
 
 #### 📸 Snapshot Testing
@@ -144,16 +147,19 @@ Snapshot testing is a great way to ensure that you can refactor safely. If done 
 
 For markup snapshots, Jest comes to the rescue again. The current trend is to split everything into individual atomic libraries, so to use snapshots with Jest you will need Facebook's [react test renderer](https://www.npmjs.com/package/react-test-renderer), which is maintained by the core react team.
 
+Before you can run your snapshot tests, you need to be aware of what you're bundling. Jest has some limitations, so you need to mock files that we can't test, such as CSS or images. I have an example of how to mock them out in my [Jest config](/jest.config.js) you can see the mocks themselves [here](/src/__mocks__)
+
 The snapshots it creates can be peer reviewed during a pull request, and ensure that if you changed the markup it was because you meant them to. You can see [examples](src/app/components/Counter/__tests__/__snapshots__/index.spec.tsx.snap) of the snapshots it generates in my codebase.
 
+
 #### 🏝Visual Snapshots
-The brilliant Chrome team at Google gave us [Puppeteer](https://pptr.dev/), a tool for headless browser testing that JavaScript developers have no excuse not to use. This can replace and augment some of the selenium testing that you might have traditionally carried out, but with no need to learn selenium.
+The brilliant Chrome team at Google gave us [Puppeteer](https://pptr.dev/), a tool for headless browser that JavaScript developers have no excuse not to use. This can replace and augment some of the selenium testing that you might have traditionally carried out, but with no need to learn selenium. You can verify correctness of your application locally, and allow the test team to prove its consistency. The two technologies working to make each other better.
 
 Puppeteer will allow you to take screenshots of the browser as you interact with it, this is amazingly powerful, especially when combined with packages like [jest-image-snapshot](https://www.npmjs.com/package/jest-image-snapshot). Jest image snapshot allows you to compare new images with old ones. Someone accidentally made the header purple, or broke a link to an image. Traditionally you need a person to verify these sorts of bugs, but with Jest image snapshot you can get a computer to check it at build time!
 
 Using a combination of Puppeteer & Jest image snapshot we can verify behaviour and look simultaneously, in a way that mimics the way users will actually use the site. With enough patience you can even script the journey for users with screen-readers, and know at build time if you've broken your websites accessibility.
 
-You can see my example tests [here](/src/app/components/Counter/__tests__/index.browser.spec.ts) and their outputs[here](/src/app/components/Counter/__tests__/__image_snapshots__).
+You can see my example tests [here](/src/app/components/Counter/__tests__/index.browser.spec.ts) and their outputs [here](/src/app/components/Counter/__tests__/__image_snapshots__).
 
 ### CI/CD
 
