@@ -1,0 +1,11 @@
+.byop-app__qr {
+  min-width: 500;
+  display: flex;
+  justify-content: center;
+}
+
+.byop-app__qr-image {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}

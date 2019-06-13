@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet-async";
 import Counter from "../Counter";
 import FarpointLabs from "../FarpointLabs";
 import Header from "../Header";
+import QR from "../QR";
 import Speaker from "../Speaker";
 
 import "./style.css";
@@ -25,6 +26,7 @@ const Landing: React.FunctionComponent = () => (
         <FarpointLabs />
         <Speaker />
         <Counter />
+        <QR />
       </div>
     </Box>
   </>
