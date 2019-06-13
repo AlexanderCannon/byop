@@ -10,7 +10,7 @@
   position: absolute;
   z-index: 250;
   top: 0;
-  transition: opacity 1s ease-in-out;
+  transition: opacity 200ms ease-in-out;
 }
 
 .byop-app--speaker:hover .byop-app--speaker-image-hidden {

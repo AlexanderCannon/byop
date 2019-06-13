@@ -20,6 +20,7 @@ test("changes image on hover", async () => {
   await page.goto("http://localhost:1234/cmp-speaker");
   await page.waitForSelector(".byop-app--speaker");
   await page.hover(".byop-app--speaker");
+  await setTimeout(() => setTimeout(() => {}, 400));
   const image = await page.screenshot();
   expect(image).toMatchImageSnapshot();
 });
