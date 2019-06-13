@@ -31,7 +31,7 @@ $ docker run -it -p 8882:8882 --init byop
 
 ## 🛎 Testing Your React
 
-Testing doesn't just encompass the traditional notion of unit tests, there are lots of ways you can ensure
+Testing doesn't just encompass the traditional notion of unit tests, there are lots of ways you can ensure the validity of your code, and make sure your users always get a great experience.
 
 ### 🙌 Types
 
