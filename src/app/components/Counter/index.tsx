@@ -37,7 +37,7 @@ export default class Counter extends React.Component<IProps, IState> {
           <span data-testid="byop-app__counter-count-value">{count}</span> times
         </Typography>
         <Button
-          className="byop--app-counter-button"
+          className="byop-app__counter-button"
           data-testid="byop-app__counter-button"
           variant="contained"
           color="primary"

@@ -25,8 +25,8 @@ test("renders correctly", async () => {
 test("counter works in situ", async () => {
   const page = await browser.newPage();
   await page.goto("http://localhost:1234");
-  await page.waitForSelector(".byop--app-counter-button");
-  page.$eval(".byop--app-counter-button", (e: any) => e.click());
+  await page.waitForSelector(".byop-app__counter-button");
+  page.$eval(".byop-app__counter-button", (e: any) => e.click());
   const image = await page.screenshot();
   expect(image).toMatchImageSnapshot();
 });
