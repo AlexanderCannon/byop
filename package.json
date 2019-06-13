@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest",
     "lint": "tslint --project tsconfig.json --fix",
+    "lint:style": "stylelint 'src/**/*.css'",
     "ts:compile": "tsc --noEmit",
     "ts:build": "tsc",
     "ts:verify": "yarn lint && yarn compile",
@@ -54,6 +55,7 @@
     "puppeteer": "^1.17.0",
     "react-test-renderer": "^16.8.6",
     "rimraf": "^2.6.3",
+    "stylelint": "^10.1.0",
     "ts-jest": "^24.0.2",
     "tslint": "^5.16.0",
     "tslint-config-airbnb": "^5.11.1",

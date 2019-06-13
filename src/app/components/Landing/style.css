@@ -5,8 +5,8 @@
   max-height: 100vh;
   max-width: 100vw;
   position: fixed;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   z-index: 0;
 }
 
@@ -19,10 +19,12 @@
   max-width: 100%;
   height: 100%;
 }
-.byop-app--landing>* {
+
+.byop-app--landing > * {
   flex-grow: 1;
 }
-.byop-app--landing>h1 {
+
+.byop-app--landing > h1 {
   padding: 5%;
   color: var(--color-white);
   text-shadow: var(--text-shadow);
@@ -34,15 +36,17 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  left:0;
+  left: 0;
   width: 100vw;
   min-height: 100vh;
   justify-content: center;
   align-items: center;
 }
-.byop-app--landing-cards>*{
+
+.byop-app--landing-cards > * {
   top: 50px;
   width: 500px;
+
   /* height: 500px; */
   margin: 50px;
 }
