@@ -102,7 +102,7 @@ If you find that this isn't being done, it's usually a cultural problem, unreali
 This is often the case in scrum; developers need to finish a piece of work by an arbitrary deadline. Instead of finishing it properly they can just mark it as ready for test and push it. This buys time for the bug fix in the next sprint, and management is happy; to the detriment of your codebase and team's morale.
 
 #### 👷‍♀️Testing as a developer
-It's easy to become dogmatic about testing. If you've ever been asked to hit 100% unit test coverage, you'll know the feeling.
+It's easy to become dogmatic about testing. If you've ever been asked to hit 100% unit test coverage, you'll probably ask yourself, _why_.
 
 It's very easy to write [misleading tests that "prove" coverage but don't actually fix anything](https://www.theregister.co.uk/2019/04/23/hertz_accenture_lawsuit/).
 
