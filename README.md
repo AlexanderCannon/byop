@@ -61,13 +61,13 @@ By picking a popular set of rules you can remove egos from the discussion of rul
 Check my [tslint.json](tslint.json) file for my config, and to see what plugins I'm using.
 
 
-#### 🕴Coding standards
+#### 🕴 Coding standards
 I have outsourced most of my opinions, that way I can always throw them away and get better ones, if they come along. [Prettier](https://prettier.io/) is an opinionated code formatter. It works with a lot of IDEs, and it goes _great_ with [Visual Studio code](https://code.visualstudio.com/), my editor of choice.
 
 Don't love all of Prettier's choices? Find they sometimes clash with your linting config? don't stress! Fix it for your whole team in one go, by committing a .prettierrc file, with your own custom rules. You can check my one out [here](/.prettierrc).
 
 ### 🎨 Styles
-#### 🤖Modern CSS
+#### 🤖 Modern CSS
 
 Your CSS code is as important as your JavaScript code. Un-refactorable CSS is usually a big factor in the quality of your developers lives. The markup in the HTML and the code that generates it effects how things get done, and how hard it is to make changes.
 
@@ -75,7 +75,7 @@ For modern CSS best practises don't use SASS or any other CSS compilers, you are
 
 Try and keep your CSS flat, this keeps it portable. If you heavily nest things, it means that sub-components can't be split out with their styles intact. Use [BEM](http://getbem.com/) naming conventions, to keep your CSS absolutely awesome and easily maintainable.
 
-#### 🖼Style Linting
+#### 🖼 Style Linting
 What? You can lint your styles too! Often overlooked, disparaged as _"not real code"_ CSS gets a hard time from people who should know better. The same people who spent years defending weird old JavaScript now turn around and complain about CSS. Well no longer!
 
 There is a growing professional community around CSS. The best tool I've found for static analysis is [stylelint](https://stylelint.io/); which is an amazing, pluggable linter. Even if your setup isn't running something you can use as a pluggable build step, you can add a style linting job and run it on CI.
@@ -101,7 +101,7 @@ If you find that this isn't being done, it's usually a cultural problem, unreali
 
 This is often the case in scrum; developers need to finish a piece of work by an arbitrary deadline. Instead of finishing it properly they can just mark it as ready for test and push it. This buys time for the bug fix in the next sprint, and management is happy; to the detriment of your codebase and team's morale.
 
-#### 👷‍♀️Testing as a developer
+#### 👷‍♀️ Testing as a developer
 It's easy to become dogmatic about testing. If you've ever been asked to hit 100% unit test coverage, you'll probably ask yourself, _why_.
 
 It's very easy to write [misleading tests that "prove" coverage but don't actually fix anything](https://www.theregister.co.uk/2019/04/23/hertz_accenture_lawsuit/).
@@ -121,7 +121,7 @@ Integration tests, or _"testing the app as it is used"_ is a great way to ensure
 
 So what am I using to test my application?
 
-#### 🛡Unit testing
+#### 🛡 Unit testing
 
 The type of testing that everyone should be familiar with, and also arguably the least valuable. Unit testing allows you to ensure that an individual function works is as you expect it.
 
@@ -131,7 +131,7 @@ For unit tests, Jest will happily run without any configuration. In this app the
 
 You might also spot that all of my tests live in folders called `__tests__`, this is personal preference, and there is no right or wrong place to put them, just move stuff around till you feel comfortable.
 
-#### 🚀Integration testing
+#### 🚀 Integration testing
 
 This is where the magic happens. In recent years there has been a shift towards testing applications as they actually work. For my money the best in the business in the React world is still [enzyme](https://airbnb.io/enzyme/).
 
@@ -152,7 +152,7 @@ Before you can run your snapshot tests, you need to be aware of what you're bund
 The snapshots it creates can be peer reviewed during a pull request, and ensure that if you changed the markup it was because you meant them to. You can see [examples](src/app/components/Counter/__tests__/__snapshots__/index.spec.tsx.snap) of the snapshots it generates in my codebase.
 
 
-#### 🏝Visual Snapshots
+#### 🏝 Visual Snapshots
 The brilliant Chrome team at Google gave us [Puppeteer](https://pptr.dev/), a tool for headless browser that JavaScript developers have no excuse not to use. This can replace and augment some of the selenium testing that you might have traditionally carried out, but with no need to learn selenium. You can verify correctness of your application locally, and allow the test team to prove its consistency. The two technologies working to make each other better.
 
 Puppeteer will allow you to take screenshots of the browser as you interact with it, this is amazingly powerful, especially when combined with packages like [jest-image-snapshot](https://www.npmjs.com/package/jest-image-snapshot). Jest image snapshot allows you to compare new images with old ones. Someone accidentally made the header purple, or broke a link to an image. Traditionally you need a person to verify these sorts of bugs, but with Jest image snapshot you can get a computer to check it at build time!
@@ -161,7 +161,7 @@ Using a combination of Puppeteer & Jest image snapshot we can verify behaviour a
 
 You can see my example tests [here](/src/app/components/Counter/__tests__/index.browser.spec.ts) and their outputs [here](/src/app/components/Counter/__tests__/__image_snapshots__).
 
-### CI/CD
+### 🛸 CI/CD
 
 You should be also running a host of other tools to verify correctness of your build. As a developer you know the tools you want to use to automate and verify your workflow.
 
